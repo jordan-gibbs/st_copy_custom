@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Sora:wght@100..800&display=swap');
+
 :root {
   --primary-color: #C34F83;
   --background-color: #020304;
   --secondary-background-color: #0F171E;
   --text-color: #EBEEF0;
-  --font: sans-serif;
+  --font: 'Sora', sans-serif;
 }
 
 .st-copy-to-clipboard-btn {
@@ -34,4 +36,8 @@
   border-color: var(--primary-color);
   background-color: var(--primary-color);
   color: var(--text-color);
+}
+
+body * {
+  font-family: 'Sora', sans-serif !important;
 }
